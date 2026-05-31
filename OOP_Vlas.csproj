@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="D:\OOP_Vlas">
+        <Link>OOP_Vlas</Link>
+      </Folder>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="D:\OOP_Vlas\matrix.txt">
+        <Link>matrix.txt</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>
